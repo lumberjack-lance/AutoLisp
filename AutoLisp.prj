@@ -3,13 +3,13 @@
   :name
   AutoLisp
   :own-list
-  ("C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/src/Shotructs"
+  ("C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/src/shortcuts/Shotructs"
     "load-lisp"
   )
   :fas-directory
-  "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\bin\\fas"
+  "C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/bin/fas"
   :tmp-directory
-  "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\bin\\tmp"
+  "C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/bin/tmp"
   :project-keys
   (:BUILD (:OPTIMIZE :MAKE-INTERNAL)
 	  :MERGED
