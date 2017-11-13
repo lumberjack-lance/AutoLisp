@@ -1,0 +1,25 @@
+;;; VLisp project file [V2.0] AutoLisp saved to:[C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp] at:[11/12/17] 
+(VLISP-PROJECT-LIST
+  :name
+  AutoLisp
+  :own-list
+  ("C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/src/Shotructs"
+    "load-lisp"
+  )
+  :fas-directory
+  "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\bin\\fas"
+  :tmp-directory
+  "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\bin\\tmp"
+  :project-keys
+  (:BUILD (:OPTIMIZE :MAKE-INTERNAL)
+	  :MERGED
+	  nil
+	  :SAFE-MODE
+	  T
+	  :MSGLEVEL
+	  1
+  )
+  :context-id
+  :AUTOLISP
+)
+;;; EOF

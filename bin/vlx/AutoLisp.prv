@@ -1,0 +1,20 @@
+;;; Visual LISP make file [V1.0] AutoLisp saved to:[C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/bin/vlx] at:[11/12/17] 
+(PRV-DEF
+  (:target . "AutoLisp.VLX")
+  (:active-x . T)
+  (:separate-namespace)
+  (:protected . T)
+  (:load-file-list
+    (:lsp
+      "C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/load-lisp.LSP"
+    )
+    (:lsp
+      "C:/Users/Lance Threewitt/Documents/projects/projects-git/AutoLisp/src/Shotructs.LSP"
+    )
+  )
+  (:require-file-list)
+  (:ob-directory)
+  (:tmp-directory)
+  (:optimization . st)
+)
+;; EOF

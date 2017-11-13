@@ -1,0 +1,10 @@
+# .gitignore for AutoLisp projects
+
+# Backup lisp files
+*.ls
+
+# Backup AutoCAD files
+*.bak
+*.dwl
+*.dwl2
+
