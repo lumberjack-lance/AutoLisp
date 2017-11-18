@@ -1,0 +1,9 @@
+TODO.txt
+
+Add file headers
+Format shortcuts.lsp
+Add documentation
+Finish readme.md
+Build cui file for Autocad toolbars
+Add custom autocad settings
+Incorperate change log
