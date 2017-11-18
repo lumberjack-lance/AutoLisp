@@ -10,21 +10,27 @@
     "list"
     "current"
   )
+  (setq props-path "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\doc\\props.csv")
+	   
   (setq	props
 	 (open
-	   "C:\\Users\\Lance Threewitt\\Documents\\projects\\projects-git\\AutoLisp\\doc\\props.txt"
+	   props-path
 	   "w"
 	 )
   )
   ;;TODO build for loop around this and write to file
-  (vla-GetCustomByIndex custom_props 0 'Key0 'Value0)
-  (princ Key0)
-  (princ Value0)
-  
-  (write-line "test" props)
+  (setq i 0)
+  (setq p (vla-NumCustomInfo custom_props))
+  (while (< i p)    
+	  (vla-GetCustomByIndex custom_props i 'Key 'Value)
+	  (princ Key)
+	  (princ Value)
+    	  (write-line (strcat Key ", " Value) props)
+	  (write-line Value props)
+    	  (setq i (+ 1 i))
+    );_while
+  (princ (strcat "Custom Properties exported to:" props-path))
   (close props)
-  (princ "number of props:")
-  (princ (vla-NumCustomInfo custom_props))
   (princ)
 ) ;_c:exprops
 
